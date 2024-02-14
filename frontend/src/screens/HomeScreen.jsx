@@ -9,7 +9,7 @@ import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Product from "../component/Product";
 import { useGetProductsQuery } from "../slices/productsApiSlice";
-import Loader from "../component/loader";
+import Loader from "../component/Loader";
 import Message from "../component/Message";
 import Paginate from "../component/Paginate";
 import ProductCarousel from "../component/ProductCarousel";
