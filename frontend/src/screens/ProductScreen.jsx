@@ -12,7 +12,7 @@ import {
 } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import Rating from "../component/Rating";
-import Loader from "../component/loader";
+import Loader from "../component/Loader";
 import Message from "../component/Message";
 import {
   useGetProductDetailsQuery,
